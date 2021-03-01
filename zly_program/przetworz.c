@@ -125,6 +125,8 @@ int IloscWielkichLiter(char *Tekst)
 
 int main()
 {
+  //Kompilator podpowiada ze nie mozemy konwertowac const stringa na zmiennego chara 
+  //dlatego zmieniamy zmienny wskaznik na chara na pusta tablice ktora wypelniamy 
   char Napis[] = "Jak dobrze jest wstac skoro swit. Jutrzenki blask ...";
   int IloscSpacji;
   int DlugoscSlowaXXX;
