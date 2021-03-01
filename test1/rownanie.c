@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <math.h>
 
-
+//Przy kompilacji gcc trzeba dodac biblioteke matematyczna flaga -lm
 struct TrojmianKw {
   double  a;
   double  b;
