@@ -27,7 +27,7 @@ void KonwertujNapis( char *Napis, char *TabKodow, char *TabZnakow, int Rozmiar)
 int main()
 {
   int  IloscKodow = 10;
-  //Zamiast rzutowania na int rzutujemy na chara (spowodowane jest roznica stalych znakowych)
+  //Zamiast rzutowania na int rzutujemy na char (spowodowane jest roznica stalych znakowych)
   int  Rozmiar = IloscKodow * sizeof('�');
 
   char  *TabKodow = (char*)malloc(Rozmiar);

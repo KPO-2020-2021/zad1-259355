@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-// Wymagane jest jawne dowiązanie czyli zamiast "extern" (C) wprowadzamy "static" (C++)
+// Wymagane jest jawne dowiązanie czyli zamiast "extern (C) wprowadzamy "static" (C++)
 static const double PI;     
 static const double E;
 
