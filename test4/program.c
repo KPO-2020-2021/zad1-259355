@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-
-double Dodaj();
+//Musimy pokazac jakiego typu dane funkcja ma przyjmować pominiecie ich spowoduje blad
+double Dodaj(double, double);
 
 
 int main( )
